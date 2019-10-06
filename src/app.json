@@ -1,0 +1,141 @@
+{
+  "pages": [
+    "pages/tarba/home",
+    "pages/tarba/cart",
+    "pages/tarba/class",
+    "pages/tarba/person",
+    "pages/tarba/nearyShop"
+  ],
+  "subPackages":[
+    {
+      "root": "pages/my",
+      "pages": [
+        "tuanzhangcenter/tuanzhangcenter",
+        "tuanzhangcenter/changeinfo",
+        "tuanzhangcenter/getmoney",
+        "tuanzhangcenter/restuanzhang",
+        "tuanzhangcenter/shenhetijiao",
+        "shangjia/index",
+        "shangjia/shangjiaruzhu",
+        "kefucenter",
+        "message",
+        "mypingjia",
+        "shezhicenter",
+        "shoucang"
+      ]
+    },
+    {
+      "root": "pages/order",
+      "pages": [
+        "fapiao",
+        "order"
+      ]
+    },
+    {
+      "root": "pages/address",
+      "pages": [
+        "index",
+        "addaddress",
+        "map",
+        "position"
+      ]
+    },
+    {
+      "root": "pages/search",
+      "pages": [
+        "index",
+        "search_product",
+        "search_shop"
+      ]
+    },
+    {
+      "root": "pages/shopdetails",
+      "pages": [
+        "index",
+        "shopingdetials"
+      ]
+    },
+    {
+      "root": "pages/Good",
+      "pages": [
+        "gooddetials"
+      ]
+    },
+    {
+      "root": "pages/class",
+      "pages": [
+        "oneclass",
+        "shopclass",
+        "class_search"
+      ]
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "山城乡鲜",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#72D241",
+    "borderStyle": "white",
+    "size": "14px",
+
+    "list": [{
+        "text": "首页",
+        "pagePath": "pages/tarba/home",
+        "iconPath": "static/tabs/shouye1.png",
+        "selectedIconPath": "static/tabs/shouye2.png"
+      }, {
+        "text": "分类",
+        "pagePath": "pages/tarba/class",
+        "iconPath": "static/tabs/fenlei.png",
+        "selectedIconPath": "static/tabs/fenlei2.png"
+      },
+      {
+        "text": "附近商家",
+        "pagePath": "pages/tarba/nearyShop",
+        "iconPath": "static/tabs/fujinshangjia.png",
+        "selectedIconPath": "static/tabs/fujinshangjia2.png"
+      }, {
+        "text": "购物车",
+        "pagePath": "pages/tarba/cart",
+        "iconPath": "static/tabs/gouwuche.png",
+        "selectedIconPath": "static/tabs/gouwuche2.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/tarba/person",
+        "iconPath": "static/tabs/wode.png",
+        "selectedIconPath": "static/tabs/wode2.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "usingComponents": {
+    "van-icon": "/static/vant/icon/index",
+    "van-search": "/static/vant/search/index",
+    "van-tabbar": "/static/vant/tabbar/index",
+    "van-tabs": "/static/vant/tabs/index",
+    "van-tab": "/static/vant/tab/index",
+    "van-tabbar-item": "/static/vant/tabbar-item/index",
+    "van-stepper": "/static/vant/stepper/index",
+    "van-swipe": "/static/vant/swipe-cell/index",
+    "van-checkbox": "/static/vant/checkbox/index",
+    "van-rate": "/static/vant/rate/index",
+    "van-radio-group": "/static/vant/radio-group/index",
+    "Dialog": "/static/vant/dialog/index",
+    "Toast": "/static/vant/toast/index",
+    "van-loading": "/static/vant/loading/index",
+    "van-popup": "/static/vant/popup/index",
+    "van-goods-action": "/static/vant/goods-action/index",
+    "van-goods-action-big-btn": "/static/vant/goods-action-button/index",
+    "van-pull-refresh": "/static/vant/tabs/index",
+    "van-list": "/static/vant/collapse/index"
+  
+
+  }
+
+}
